@@ -28,7 +28,9 @@ const urls = [
   'github-production-repository-file-5c1aeb.s3.amazonaws.com',
   'githubstatus.com',
   'github.community',
-  'media.githubusercontent.com'
+  'media.githubusercontent.com',
+  'dribbble.com',
+  'cdn.dribbble.com'
 ];
 
 module.exports = urls
