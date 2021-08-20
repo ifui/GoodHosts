@@ -1,5 +1,5 @@
 {
-  "name": "good-hosts",
+  "name": "doh-hosts",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ifui@foxmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dohjs": "^0.3.2"
+  }
 }
