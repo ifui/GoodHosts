@@ -1,15 +1,15 @@
 const fs = require('fs')
 
-const writeFile = res => {
-  const hosts = res.join('\r\n')
-  fs.writeFile('./hosts', hosts, (err) => {
+function writeHosts(value) {
+  fs.writeFile('./hosts', value, (err) => {
     if (err) {
       console.error(err)
-      return
+      return false
     }
 
     console.log('hosts 文件更新成功')
+    return true
   })
 }
 
-module.exports = writeFile
+module.exports = writeHosts

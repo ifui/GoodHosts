@@ -6,6 +6,9 @@
  * 红鱼 https://www.rubyfish.cn/dns-query
  */
 
-const dnsQuery = 'https://dns.alidns.com/dns-query'
+const dnsQuery = [
+  'https://dns.alidns.com/dns-query',
+  'https://doh.pub/dns-query'
+]
 
 module.exports = dnsQuery

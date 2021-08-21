@@ -29,8 +29,6 @@ const urls = [
   'githubstatus.com',
   'github.community',
   'media.githubusercontent.com',
-  'dribbble.com',
-  'cdn.dribbble.com'
 ];
 
 module.exports = urls
