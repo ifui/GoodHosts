@@ -2,6 +2,8 @@
 
 主要解决部分网址存在`DNS`污染加速网站访问
 
+默认配置了：`github`、`dribbble`
+
 ## 特性
 
 - 支持多`DoH`同时测速
@@ -13,7 +15,7 @@
 
 ### 1. 自动更新
 
-建议搭配：(SwitchHosts)[https://swh.app/] 使用
+建议搭配：[https://swh.app/](SwitchHosts) 使用
 
 更新地址：
 
@@ -21,7 +23,11 @@
 
 ### 2. 添加到 hosts
 
-将 (hosts)[https://] 中的内容添加到你的`hosts`文件中
+将 [https://](hosts) 中的内容添加到你的`hosts`文件中
+
+## 其他说明
+
+如果你有需要的网址或者想要提交`DoH`欢迎提交[https://github.com/ifui/GoodHosts/issues](issues)
 
 ## 关于作者
 
