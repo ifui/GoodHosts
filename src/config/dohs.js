@@ -7,8 +7,9 @@
  */
 
 const dnsQuery = [
-  // 'https://dns.alidns.com/dns-query',
-  'https://101.101.101.101/dns-query'
+  'https://dns.alidns.com/dns-query',
+  'https://101.101.101.101/dns-query',
+  'https://doh.pub/dns-query'
 ]
 
 module.exports = dnsQuery
