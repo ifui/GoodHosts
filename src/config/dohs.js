@@ -7,7 +7,7 @@
  */
 
 const dnsQuery = [
-  'https://dns.alidns.com/dns-query',
+  // 'https://dns.alidns.com/dns-query',
   'https://101.101.101.101/dns-query'
 ]
 

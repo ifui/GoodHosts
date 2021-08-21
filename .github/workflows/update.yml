@@ -2,6 +2,8 @@ name: UpdateGoodHosts
 
 on:
   push:
+    branches:
+      - main
   schedule:
     - cron: '0 */2 * * *'
 
@@ -36,13 +38,3 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.COMMIT_TOKEN }}
-
-  git-mirror:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: wearerequired/git-mirror-action@v1
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        with:
-          source-repo: 'git@github.com:ifui/GoodHosts.git'
