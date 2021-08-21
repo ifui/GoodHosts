@@ -12,4 +12,6 @@ dohHosts.run().then(res => {
   res.push(...remark.footer)
 
   writeHosts(res.join('\r\n'))
+}).catch(err => {
+  console.error('获取解析内容失败', err)
 })

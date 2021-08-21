@@ -23,12 +23,14 @@ class DohHosts {
    */
   async run() {
     for (let i = 0; i < this.urls.length; i++) {
-      const ips = await this.dohQuery(this.urls[i])
-      const ip = await this.pingIps(ips)
-      if (ip) {
-        this.hosts.push(ip + ' ' + this.urls[i])
-      } else {
-        console.error(`${this.urls[i]} 获取 ip 失败`)
+      try {
+        const ips = await this.dohQuery(this.urls[i])
+        const ip = await this.pingIps(ips)
+        if (ip) {
+          this.hosts.push(ip + ' ' + this.urls[i])
+        }
+      } catch (e) {
+        console.error(`${this.urls[i]} 解析失败`, e)
       }
     }
 

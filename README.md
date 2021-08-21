@@ -15,7 +15,7 @@
 
 ### 1. 自动更新
 
-建议搭配：[https://swh.app/](SwitchHosts) 使用
+建议搭配：[SwitchHosts](https://swh.app/) 使用
 
 更新地址：
 
@@ -23,11 +23,11 @@
 
 ### 2. 添加到 hosts
 
-将 [https://](hosts) 中的内容添加到你的`hosts`文件中
+将 [hosts](https://github.com/ifui/GoodHosts/blob/main/hosts) 中的内容添加到你的`hosts`文件中
 
 ## 其他说明
 
-如果你有需要的网址或者想要提交`DoH`欢迎提交[https://github.com/ifui/GoodHosts/issues](issues)
+如果你有需要的网址或者想要提交`DoH`欢迎提交[issues](https://github.com/ifui/GoodHosts/issues)
 
 ## 关于作者
 
