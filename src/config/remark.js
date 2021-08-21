@@ -1,5 +1,7 @@
 const dayjs = require('dayjs');
 
+dayjs.tz.setDefault("Asia/Shanghai")
+
 module.exports = {
   title: ['# Added by Good Host'],
   footer: [
